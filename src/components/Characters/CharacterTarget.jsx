@@ -11,14 +11,16 @@ export default function CharacterTarget ({results, search, price, addToCart}) {
                         <div className="main-img">
                             <img src={personaje.image} alt="" />
                         </div>
-                        <h2>{personaje.name}</h2>
-                        <h5>€{price}</h5>
-                        <h3>{personaje.location.name}</h3>
+                        <div className='main-info'>
+                            <h2>{personaje.name}</h2>
+                            <h4>{price} €</h4>
+                            <h3>{personaje.location.name}</h3>
+                        </div>                        
                         <div>
                             <p className={toLowerCase(personaje.status)}>{personaje.status}</p>
                         </div>
                         <div>
-                            <button className="buy">Add to cart</button>
+                            <button className="main-buy">Add to cart</button>
                         </div>
                     </article>)) :
                         (

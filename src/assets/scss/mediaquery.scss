@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1000px) {
+    .main{
+      &-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+      }
+      &-search-target {
+        width: 100%; 
+      }
+      &-filter {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: max-content;
+        padding: 5px; 
+        div {
+          display: flex;
+          flex-direction: row;
+          margin: 3px;
+          h4 {
+            margin: 5px; 
+          } 
+         }
+      }
+    }    
+  }
+  
+  @media only screen and (max-width: 680px) {
+      
+    .header{
+        &-logo {
+          width: 60%; 
+        }
+        &-menu {
+          display: flex;
+          flex-direction: column;
+          width: 90px; 
+        }
+      }
+    h1 {
+      font-size: 30px; 
+    }
+    .main {
+      &-filter {
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+        width: max-content; 
+      }
+      &-search {
+        button {
+        width: max-content;
+        height: 33px; 
+        }
+      }
+      &-target {
+        justify-content: center; 
+      } 
+    }
+  }

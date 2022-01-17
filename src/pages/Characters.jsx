@@ -15,7 +15,7 @@ export function Characters() {
     let [status, setStatus] = useState('');
     let [species, setSpecies] = useState('');
     let [gender, setGender] = useState('');
-    let [price] = useState ('9.00')
+    let [price] = useState ('9')
     //* ESTABLEZCO NUMERO DE PÁGINA INICIAL */
     let [characterIndex, setCharacterIndex] = useState(1);
     //* TOMO RUTAS DE MI API Y LA ADENTRO EN UNA VARIABLE */

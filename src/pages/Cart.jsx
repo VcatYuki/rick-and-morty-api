@@ -1,4 +1,4 @@
-import { useReducer, useState, useEffect } from 'react'
+import React, { useReducer, useState, useEffect } from 'react'
 import { TYPES } from '../components/Cart/Actions/ShoppingActions';
 import CartItem from '../components/Cart/CartItem';
 import ProductItem from '../components/Cart/ProductItem';
